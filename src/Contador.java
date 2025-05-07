@@ -22,7 +22,7 @@ public class Contador {
         terminal.close(); // Fecha o Scanner para liberar o recurso
     }
 
-    // Metodo que realiza a contagem entre dois números
+    // Metodo  que realiza a contagem entre dois números
     static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
         // Valida se parametroDois é menor ou igual ao parametroUm e lança a exceção personalizada se for
         if (parametroDois <= parametroUm){
